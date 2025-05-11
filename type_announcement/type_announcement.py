@@ -6,5 +6,7 @@
 
 # Явное указание анотации типов и сразу видим подсказку
 def multiplying_a_string(number: int, word: str) -> str:
-    word = word.capitalize
+    word = word.capitalize()
     return(word*number)
+
+print(multiplying_a_string(5, "петрович"))
